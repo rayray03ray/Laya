@@ -1,0 +1,72 @@
+/* Laya Design System - Calm Technology Aesthetic */
+
+:root {
+  /* Laya Color Palette */
+  --laya-sandstone: #F2E8DA;
+  --laya-terracotta: #8E075F;
+  --laya-oasis-teal: #4ECDC4;
+  --laya-sunbeam-yellow: #F7B731;
+  --laya-soft-white: #FFFCF8;
+  --laya-deep-brown: #3D2E28;
+  
+  /* Typography */
+  --laya-font-headline: 'EB Garamond', serif;
+  --laya-font-body: 'Nunito', sans-serif;
+  
+  /* Radius */
+  --laya-radius-card: 24px;
+  --laya-radius-button-pill: 50px;
+  --laya-radius-button-soft: 12px;
+}
+
+/* Apply Laya color scheme globally */
+body {
+  font-family: var(--laya-font-body);
+  background: var(--laya-sandstone);
+  color: var(--laya-deep-brown);
+}
+
+/* Headline typography */
+.laya-headline {
+  font-family: var(--laya-font-headline);
+  color: var(--laya-deep-brown);
+}
+
+/* Body typography */
+.laya-body {
+  font-family: var(--laya-font-body);
+  color: var(--laya-deep-brown);
+}
+
+/* Soft shadows for paper grain effect */
+.laya-shadow {
+  box-shadow: 0 4px 20px rgba(61, 46, 40, 0.08);
+}
+
+/* Card styling */
+.laya-card {
+  background: var(--laya-soft-white);
+  border-radius: var(--laya-radius-card);
+  box-shadow: 0 4px 20px rgba(61, 46, 40, 0.08);
+}
+
+/* Primary button */
+.laya-button-primary {
+  background: var(--laya-terracotta);
+  color: white;
+  border-radius: var(--laya-radius-button-pill);
+}
+
+/* Secondary button */
+.laya-button-secondary {
+  background: var(--laya-oasis-teal);
+  color: white;
+  border-radius: var(--laya-radius-button-pill);
+}
+
+/* Accent button */
+.laya-button-accent {
+  background: var(--laya-sunbeam-yellow);
+  color: var(--laya-deep-brown);
+  border-radius: var(--laya-radius-button-pill);
+}
